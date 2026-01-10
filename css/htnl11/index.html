@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <style>
+        div{
+            background-color: gold;
+        }
+        .red{
+            background-color: rgb(255, 102, 0);
+        }
+        #green{
+            background-color: chartreuse;
+        }
+        div>p{
+            color:blue;
+            background-color: brown;
+        }
+        div p{
+            color:blue;
+            background-color: brown;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        a:visited{
+            background-color: rgb(30, 210, 90);
+        }
+         /* a:link{ 
+            background-color: rgb(38, 197, 17);
+        } */
+        a.active{
+            background-color: rgb(172, 232, 31);
+        }
+        a:hover{
+            background-color: rgb(247, 12, 102);
+        }
+        p:first-child{
+            background-color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>kavya</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+    </main>
+    <div class ="red">i am a div
+        <article>
+            <p>hello kavya</p>
+        </article>
+    </div>
+    <div id ="green">
+        div is green
+
+    </div>
+    <a href="https://in.pinterest.com/">pinterest5</a>
+    <br>
+    <a href="https://www.google.com/">Google5</a>
+    <a href="https:www.facebook.com/">Facebook2</a>
+</body>
+</html>
